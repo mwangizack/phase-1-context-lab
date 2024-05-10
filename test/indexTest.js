@@ -276,7 +276,7 @@ describe("The payroll system", function () {
           ["Natalia", "Romanov", "CEO", 150]
         ]
         let emps = createEmployeeRecords(src)
-        let loki = findEmployeeByFirstName(emps, "Loki")
+        let loki = findEmployeeByFirstName(src, "Loki")
         expect(loki.familyName).to.equal("Laufeysson-Odinsson")
       })
     })
